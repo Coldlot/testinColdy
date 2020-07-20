@@ -1,0 +1,16 @@
+PODS:
+  - testinColdy (0.1.0)
+
+DEPENDENCIES:
+  - testinColdy (from `../`)
+
+EXTERNAL SOURCES:
+  testinColdy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  testinColdy: 9ddca5970e672735af1c684d9cf4c191a08b9250
+
+PODFILE CHECKSUM: 1a5dc6b9f21cd02516db907ae0f3d01dfb3e1236
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module testinColdy {
+  umbrella header "testinColdy-umbrella.h"
+
+  export *
+  module * { export * }
+}
