@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'testinColdy_Example' do
+  pod 'testinColdy', :path => '../'
+
+  target 'testinColdy_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
