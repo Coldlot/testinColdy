@@ -15,7 +15,7 @@
 		66E5150239165B1A7B3055B62E699C1A /* testinColdy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70638D64A4A41CCB847DA6481D9CA726 /* testinColdy-dummy.m */; };
 		755B42D2B63C37E720A91ECF6B417A0F /* Pods-testinColdy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CCD126F98FEED2C678684F6FFAD5AF8 /* Pods-testinColdy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE3D4CF9AD5D5E2B164C4AEDF5E61716 /* testinColdy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF90880CEDEE73D975AA280A6BADEE2 /* testinColdy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D080C617ECA4DB8B557F806ABC31708B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C323CA48D9DEF22D395863E5E1D91 /* ReplaceMe.swift */; };
+		D080C617ECA4DB8B557F806ABC31708B /* testinColdy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C323CA48D9DEF22D395863E5E1D91 /* testinColdy.swift */; };
 		D6F08E3609AE38CBA17101420CF6D435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		49DA964DDC18104AC8816CFFBE213C63 /* Pods-testinColdy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testinColdy_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4DA0A3582825A2628E7F098CD4A54E36 /* testinColdy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "testinColdy-Info.plist"; sourceTree = "<group>"; };
 		61B4846D8E8FF44E8C1A7B4759C0364A /* testinColdy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = testinColdy.debug.xcconfig; sourceTree = "<group>"; };
-		637C323CA48D9DEF22D395863E5E1D91 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = testinColdy/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		637C323CA48D9DEF22D395863E5E1D91 /* testinColdy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = testinColdy.swift; path = testinColdy/Classes/testinColdy.swift; sourceTree = "<group>"; };
 		70638D64A4A41CCB847DA6481D9CA726 /* testinColdy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "testinColdy-dummy.m"; sourceTree = "<group>"; };
 		719F657AD86E96893D97896C87B7A0A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7938A1131F14C3C1F41097B8FC7A22E9 /* Pods-testinColdy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testinColdy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 		CA41DE5B63CE88AF646824F7D891A745 /* testinColdy */ = {
 			isa = PBXGroup;
 			children = (
-				637C323CA48D9DEF22D395863E5E1D91 /* ReplaceMe.swift */,
+				637C323CA48D9DEF22D395863E5E1D91 /* testinColdy.swift */,
 				8B7CEB353535A3251FE95A721910E751 /* Pod */,
 				B436DCE182D365F67F438C5D880FB676 /* Support Files */,
 			);
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D080C617ECA4DB8B557F806ABC31708B /* ReplaceMe.swift in Sources */,
+				D080C617ECA4DB8B557F806ABC31708B /* testinColdy.swift in Sources */,
 				66E5150239165B1A7B3055B62E699C1A /* testinColdy-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
